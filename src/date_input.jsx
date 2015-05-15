@@ -69,6 +69,7 @@ var DateInput = React.createClass({
 
   render: function() {
     return <input
+      id={this.props.id}
       ref="input"
       type="text"
       value={this.state.value}
